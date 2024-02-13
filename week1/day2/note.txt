@@ -1,0 +1,24 @@
+*YouTube
+
+mike shah: c++ tutorial, stages of compilation
+
+cppcon: back to basics playlist, templates 2 videos
+
+distrotube: command line playlist 
+
+LearnLinuxTV
+
+*websites
+
+cppreference.com
+thisptr.com
+nextptr.com
+
+ctrl b
+ctrl p
+ctrl w 
+ctrl k + w
+ctrl p ctrl enter
+ctrl tab
+
+objdump -Cd ./a.out | grep main -A 10 (for viewing assembly code)

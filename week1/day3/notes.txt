@@ -1,0 +1,10 @@
+Move smeantics 
+nullptr
+
+smart pointer RAAI
+
+
+Customer
+    |   has a
+Debit card
+

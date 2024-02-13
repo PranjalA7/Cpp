@@ -1,0 +1,48 @@
+Structured programming
+    - C Programming 
+    - imperaive coding 
+
+ 
+ 
+Object Oriented Programming
+    - represent state based on a model
+    - extend, associate, compose, aggregate, generalize and abstract behaviour and types
+    - It is suitable scal projects
+ 
+ 
+//python code --->
+create a list of numbers each called as num such that numbers is in the range of 1 to 10
+ 
+    data = [num for num in range(1,11,1)]
+
+
+lamda
+map
+filter
+reduce
+closure
+type erasure
+wrapper
+partial function
+value semantics
+/////syllabus
+monoid
+monad
+
+1) Every Object has a type
+    i) func also have type
+    signature is its type
+
+2) pass Objects to functions as parameters
+    ii) func can be passed via wrapper or func
+    pointer to other func
+
+3) return Objects from functions
+    iii) func can be returned via wrapper or function
+    pointer from ohter functions
+
+4) we can obtain address of Objects
+    iv) we can obtain address of any func
+
+5) Objects can be stored in containers
+    v) func can also be stored in containers via wrapper or func pointer

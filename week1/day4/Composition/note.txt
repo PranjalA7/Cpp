@@ -1,0 +1,3 @@
+Effective modern cpp scott mayers
+
+createobject
