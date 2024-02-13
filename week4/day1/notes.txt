@@ -1,0 +1,5 @@
+I want to design an application to process 10 recent transactions made by a user
+by fetching their details from database
+
+OPERATION:
+    Each transactions amount, time and receipient has to be printed

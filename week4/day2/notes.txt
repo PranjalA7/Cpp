@@ -1,0 +1,70 @@
+Average of all cars from a container of variant (type car or bike)
+find if any car in my container has a price above 50000
+
+
+float Average (Container& data)
+    int total = 0, count = 0;
+
+    for (ptr : data)
+        if iscar()
+            total+= ptr->price
+            count++
+    
+    return total/count
+
+
+Bubble sort technique can be resolved in (n^2 +n)/2 access of elements
+this is quadratic order of growth with respect of n because
+for any value of n greater than 1, (n^2 + n)/2 is never greater than n^2
+
+mathematics
+    -Youtube channel 3Blue1Brown
+
+scene 1 : a regular func. I have input before creating thread 
+i dont want return value 
+    std::thread should be enough 
+
+scene 2 : A function, I have input before creating thread 
+i want return value
+    use std::async without Future input with a future return 
+
+scene 3 : A function. I dont have input before creating thread
+i dont want return
+    use std::async with future input and future return type 
+
+scene 4 : A function, i dont have input before creating thread
+I want return value 
+    use std::async with future input and future return type
+
+scene 5 : A function. I have input, I want to start thread using the input
+I want my function to some work but stop or block before completion 
+and wait for some event to happen
+    condition variable based code using unique lock
+
+
+
+1) Copy -all elements get copied from source to destination unconditionally 
+2) Copy_if : copy elements from source to destination if the elements satisfy the condition
+3) all_of : return a boolean to indicate if all elements satisfy condition
+4) any_of : return a boolean to indicate if none of the elements satisfy condition
+5) none_of : return a boolean to indicate if none of the elements satisfy condition
+6) count_if : return count of elements that satisfy the condition
+7) find_if : return the iterator to the first first element that satisfies the condition
+        else end iterator (when no element satisfies condition)
+8) accumulate : produces one aggregated final output value by performing binary operations
+9) max_element : returns iterator to the "maxiimum" element in the container 
+        maximum can be determined by writing a custom comparator 
+10) min_element : returns iterator to the "minimum" element in the container
+        minimum can be determined by writing a custom comparator
+11) sort : write a comparator to perform ascending or descending sort 
+of original container (in-place sorting)
+
+
+
+Vector
+array
+list
+unordered_map
+set 
+queue
+priority queue
