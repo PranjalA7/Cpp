@@ -1,0 +1,36 @@
+std::variant & std::visit!
+
+eg 2classes Employee and businessowner with common behaviour PayTax
+
+A
+PayTax
+  -----common behaviour
+
+B 
+PayTax
+
+TaxPayer* ptr;
+ptr->PayTax(); A::PayTax OR B::PayTax()
+
+
+std::variant can be used for "functional polymorhism"
+which could be Runtime polymorhism
+variant is algebraic datatype
+
+
+Mapping Of Concepts
+
+Scenario 1: I want to create a small size, script like 
+prigram to perform simple task
+
+concept to be used : shell script in your preffered shell
+################
+Scenario 2 : I want to create container to store fixed size of elements
+concept to be used : array or a std::array (to take advantage of built in funct)
+###############
+Scenario 3 : I want to non-fixed number of elements and i dont want to block
+consecutive locations in memory for the same
+
+Scenario 8 : I want to execute differentlogic 
+
+Scenario 14 : I want to store type erased behaviour in form of a function in the wrapper  

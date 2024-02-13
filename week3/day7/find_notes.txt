@@ -1,0 +1,18 @@
+find : files and floders based on
+
+    -pattern of thier names
+    - time of creation or last modification
+    - based on owner (user who owns the file/folder)
+    - based on permissions
+    - type (flie or folder)
+    - depth (level )
+
+find all flies in week 3 folder that are cpp files
+
+command name  option 
+
+find .. -name "*.cpp"
+
+for case insensitive search -iname 
+
+find .. -user kpit  -type f -exec head -n1 {} \;

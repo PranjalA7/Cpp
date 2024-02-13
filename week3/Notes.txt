@@ -1,0 +1,59 @@
+<command>  <options>   path
+ls          -l       ~/Desktop
+
+ls no options no path
+-will give current folder files
+
+##options
+-a : hidden items
+
+-l : long form of detailed output
+
+-h : sizes in human readable form
+
+-R : recurssively list subfolders
+
+-t : files time sort
+
+- r ; reverse sort (use with -t for reverse time sort)
+
+Moderate
+ls
+top
+
+Easy
+cd 
+cp 
+mv
+rm
+rmdir
+mkdir
+touch
+
+high difficulty
+find
+grep
+subfoldersawk
+ps
+ssh
+
+
+Parts of a Operating System
+
+1) kernel : software program (written in either C or rust)
+        - heart of the OS (core of the OS)
+        - Process scheduling, threading and concurrency, Device Driver and its usage, Security, FIle Management
+
+
+2) Applications and Utilities
+        - GNU Utilities & other programs (pre-installed & available for install)
+
+3) Desktop Environment
+        - GUI visible to the user (which performs operations as demanded)
+        - e.g. Gnome (current), Unity Desktop, Cosmic, KDE Plasma, etc.
+
+4) Shell
+        - bash, zsh, fish
+
+5) Package Manager
+        - apt (aptitude), rpm, dnf, pacman, winget(windows), brew

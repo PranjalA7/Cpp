@@ -1,0 +1,9 @@
+Create a multiple project wiht the following 
+- a functionalities interface for the following actions
+    - ability to Create car and bike based on inputs provided to make_shared
+    - ability to find car or bike instance with minimum price
+    - ability to find average price of all vehicles stored in a container
+    - ability to search and return a true or false to indicate whether a vehicle
+        with a given id is present or not
+    - ability to find and return the count of instances whose type matches with
+    the type provided
